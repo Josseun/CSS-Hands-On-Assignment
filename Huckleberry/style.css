@@ -1,0 +1,139 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #fff;
+  padding: 0;
+  display: flex;
+  min-height: 100vh;
+  color: #000;
+}
+
+.container {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.an {
+  width: 100%;
+  max-width: 350px;
+}
+
+.a {
+  width: 100%;
+  max-width: 300px;
+}
+
+.head {
+  padding-bottom: 30px;
+  margin: 0;
+}
+
+.top-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 8px solid #999999;
+}
+
+.top-content {
+  width: 100%;
+  max-width: 620px;
+  margin-top: 50px;
+  font-family: Lato;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 150%;
+  padding: 20px;
+}
+
+.highlight {
+  color: #009966;
+  font-family: Lato;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+
+.bottom-section {
+  background-color: #666;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding-left: 200px;
+  padding-right: 100px; */
+  min-height: 50%;
+}
+
+.card {
+  width: 100%;
+  max-width: 620px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #fff;
+  font-family: Lato;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 150%;
+  border-bottom: 8px solid #99999999;
+  position: relative;
+}
+
+h3 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 900;
+  font-family: Lato;
+}
+
+.banner {
+  padding: 10px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 350px;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffbf00;
+  border-bottom: 8px solid #cc9900;
+  position: absolute;
+  top: 5px;
+  left: -5px;
+}
+
+.bottom-content {
+  padding: 0;
+  margin-top: 70px;
+  text-align: justify;
+}
+
+@media (max-width: 425px) {
+  .top-section {
+    padding: 20px;
+  }
+
+  .card {
+    padding-top: 30px;
+  }
+
+  .bottom-content {
+    text-align: start;
+  }
+
+  .banner {
+    max-width: 250px;
+  }
+}
